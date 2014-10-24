@@ -11,7 +11,7 @@ public class FinalProjectBLT {
 	public static void main(String[] args) {
 		
 		try(	// allocating a database Connection object
-				Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/ATMSystem","myuser", "password");
+				Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/bankingdb","myuser", "password");
 				
 				// allocating a statement object in the connection
 				
